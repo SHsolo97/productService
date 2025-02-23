@@ -1,4 +1,4 @@
-package com.scaler.productservicedecmwfeve.exceptions;
+package com.example.productservice.exceptions;
 
 public class ProductNotExistsException extends Exception {
 

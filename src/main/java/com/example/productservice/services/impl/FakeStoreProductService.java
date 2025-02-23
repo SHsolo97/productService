@@ -1,5 +1,6 @@
 package com.example.productservice.services.impl;
 
+import com.example.productservice.dtos.CreateProductDto;
 import com.example.productservice.dtos.FakeStoreProductDto;
 import com.example.productservice.exceptions.ProductNotExistsException;
 import com.example.productservice.models.Category;
@@ -103,12 +104,12 @@ public class FakeStoreProductService implements ProductService {
     }
 
     @Override
-    public Product addNewProduct(Product product) {
+    public Product addNewProduct(CreateProductDto product) {
         return null;
     }
 
     @Override
-    public boolean deleteProduct(Long id) {
-        return false;
+    public String deleteProduct(Long id) {
+        return "Not implemented yet.";
     }
 }

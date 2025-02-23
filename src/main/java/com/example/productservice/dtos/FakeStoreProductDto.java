@@ -1,4 +1,4 @@
-package com.scaler.productservicedecmwfeve.dtos;
+package com.example.productservice.dtos;
 
 import lombok.Getter;
 import lombok.Setter;

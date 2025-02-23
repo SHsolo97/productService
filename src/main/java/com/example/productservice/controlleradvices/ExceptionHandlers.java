@@ -1,8 +1,9 @@
-package com.scaler.productservicedecmwfeve.controlleradvices;
+package com.example.productservice.controlleradvices;
 
-import com.scaler.productservicedecmwfeve.dtos.ArithmeticExceptionDto;
-import com.scaler.productservicedecmwfeve.dtos.ExceptionDto;
-import com.scaler.productservicedecmwfeve.exceptions.ProductNotExistsException;
+
+import com.example.productservice.dtos.ArithmeticExceptionDto;
+import com.example.productservice.dtos.ExceptionDto;
+import com.example.productservice.exceptions.ProductNotExistsException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
